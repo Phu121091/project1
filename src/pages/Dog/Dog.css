@@ -1,0 +1,57 @@
+.Dogitem{
+   width: 23%;
+   min-width: 250px;
+   margin: 10px;
+   object-fit: contain;
+   border-bottom:3px solid rgb(190, 33, 106) ;
+   cursor: pointer;
+   padding-bottom:5px ;
+}
+.Dogitem p,h6{
+    color: rgb(190, 33, 106);
+}
+.Dogitem:hover{
+    border: 5px solid rgb(190, 33, 106);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.imct img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.doglist{
+  display: flex;
+  flex-wrap: wrap;
+}
+h4{  
+    color:rgb(190, 33, 106) ;
+    padding: 10px;
+    flex: 1;
+    cursor: pointer;
+}
+.menudog ul li{
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+.menudog ul li:hover{
+    background-color: rgb(190, 33, 106);
+}
+.menudog{
+    background-color:rgb(203, 83, 137) ;
+    width: 20%;
+    min-width: 300px;
+}
+.Dogcontainer{
+    display: flex;
+}
+.headerdog{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(190, 33, 106);
+}
+.headerdog p,select{
+    margin-left: 5px;
+    margin-right: 5px;
+}

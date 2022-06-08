@@ -1,0 +1,139 @@
+header{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: rgb(190, 33, 106);
+        font-size: 17px;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black !important;
+        font-weight: bold;
+    }
+    .logo p{
+        font-size: small;
+    }
+    .imglogo{
+        width: 50px;
+        height: auto;
+    }
+    .options ul li a{
+        margin-left: 25px;
+    }
+    .options ul{
+        display: flex;
+    }
+    ul li{
+        list-style: none;
+    }
+    
+    .active{
+        font-weight: bold ;
+    }
+    
+    .greet{
+        color: rgb(190, 33, 106);
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    
+    .user-info{
+        position: relative;
+        display: inline-block;
+    }
+    /* .logout{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,50px) scale(0);
+        bottom: 0;
+        padding: 10px 20px;
+        border-radius: 4px;
+        color: white;
+        background-color: red;
+        cursor: pointer;
+        border: none;
+        transition-delay: 0.2s;
+        opacity: 0;
+        transform-origin: top;
+        transition: .2s linear;
+    }
+    
+    .logout:hover{
+        transform: translate(-50%,50px) scale(1);
+        opacity: 1;
+    }
+    .greet:hover +  .logout{
+        transform: translate(-50%,50px) scale(1);
+        opacity: 1;
+    } */
+    .logout{
+        margin-left: 20px;
+        border: none;
+        color:rgb(190, 33, 106) ;
+        background: none;
+        cursor: pointer;
+        font-size: 17px;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(190, 33, 106);
+     }
+    .menu li{
+        margin-left: 40px;
+        padding: 20px;
+        
+    }
+    .menu li a{
+        color: white;
+    }
+    .search{
+        width: 40%;
+        display: flex;
+        align-items: center;
+    }
+    .inputsearch{
+        border: 1px solid rgb(190, 33, 106);
+        height: 25px;
+        border-radius: 5px;
+        flex: 1;
+        color: rgb(203, 83, 137);
+    }
+    .iconsearch{
+        font-size: 20px;
+        margin-left: 5px;
+        cursor: pointer;
+        color:rgb(190, 33, 106) ;
+    }
+    .cart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+    }
+    .carticon,.spicon{
+        font-size: 25px;
+        margin-left: 5px;
+        color:rgb(190, 33, 106) ;
+    }
+    .cart .totalcart{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 25px;
+        top: -5px;
+        border-radius: 50%;
+        background-color:rgb(50, 10, 30) ;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
